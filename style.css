@@ -1,0 +1,68 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #111827;
+    position: sticky;
+    top: 0;
+}
+
+.navbar .logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #38bdf8;
+}
+
+.navbar nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.navbar nav a:hover {
+    color: #38bdf8;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    color: #38bdf8;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #cbd5e1;
+    margin-bottom: 20px;
+}
+
+/* الأزرا…
+[4:05 pm, 02/07/2026] ماما خط فودافون: // الانتقال لصفحة الكتاب
+function goToBook() {
+    window.location.href = "book.html";
+}
+
+// الانتقال لصفحة التعلم
+function goToLearn() {
+    window.location.href = "learn.html";
+}
+
+// تأثير بسيط عند تحميل الصفحة
+window.onload = function () {
+    console.log("CodeMaster Website Loaded 🚀");
+};
